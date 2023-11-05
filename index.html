@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bubble Pop</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="panel">
+        <!-- top bar of the panel -->
+        <div class="panel-header">
+          <div class="panel-header-info">
+            <div class="elem">
+              <p>Hit</p>
+              <div id="hit-target" class="bubble"></div>
+            </div>
+            <div class="elem">
+              <p>Timer</p>
+              <div id="timer-box">0</div>
+            </div>
+            <div class="elem">
+              <p>Score</p>
+              <div id="scoreboard"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- container containing bubbles -->
+        <div class="bubble-container set-visible">
+            <!-- <div class="bubble">5</div> -->
+        </div>
+
+        <div class="game-completed set-invisible">
+            Time is up !! Score: 
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
